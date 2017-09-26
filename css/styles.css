@@ -1,0 +1,37 @@
+#register {
+  background-color: #85C5FF;
+  border: 2px solid blue;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 20px;
+  margin: 10px;
+}
+
+#transaction {
+  background-color: #85C5FF;
+  border: 2px solid blue;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 20px;
+  margin: 10px;
+}
+
+#balanceBox {
+  background-color: #85C5FF;
+  border: 2px solid blue;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 20px;
+  margin: 10px;
+}
+
+#accountBox {
+  background-color: #85C5FF;
+  border: 2px solid blue;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  margin: 10px;
+}
