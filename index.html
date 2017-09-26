@@ -26,19 +26,20 @@
             <input type="number" name="initialDeposit" id="initialDeposit">
           </div>
           <button type="submit" name="btn" class="btn btn-success">Submit!</button>
+          <button type="reset" name="btn" class="btn btn-danger" id="reset">Reset</button>
         </form>
       </div>
       <div class="col-md-6">
         <form id="transaction">
           <div class="form-group">
             <label for="deposit">Deposit Amount:</label>
-            <input type="number" id="deposit" name="deposit">
-            <button id="deposit" type="submit" name="btn" class="btn btn-success">Deposit</button>
+            <input type="number" id="depositAmt" name="deposit">
+            <button id="btnDeposit" type="submit" name="btn" class="btn btn-success">Deposit</button>
           </div>
           <div class="form-group">
             <label for="withdrawal">Withdrawal Amount:</label>
-            <input type="number" name="withdrawal" id="withdrawal">
-            <button id="withdraw" type="submit" name="btn" class="btn btn-success">Withdraw</button>
+            <input type="number" name="withdrawal" id="withdrawalAmt">
+            <button id="btnWithdraw" type="submit" name="btn" class="btn btn-success">Withdraw</button>
           </div>
         </form>
       </div>
@@ -54,9 +55,7 @@
       </div>
       <div class="col-md-6">
         <div id="balanceBox">
-          <div id="balance">
-
-          </div>
+          <h3></h3>
         </div>
       </div>
 
